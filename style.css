@@ -1,0 +1,117 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+  --Brown800: hsl(14, 45%, 36%);
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+body{
+  font-family:"Young Serif", serif;;
+  background-color: var(--Stone150);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+  flex-direction: column;
+}
+main{
+  background-color: var(--White);
+  max-width: 550px;
+  padding: 2rem;
+  border-radius: 15px;
+}
+.img{
+  background-image: url(./assets/images/image-omelette.jpeg);
+  background-size: contain;
+  width: 100%;
+  height: 220px;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+h3{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+.recipe-description{
+  font-size: 14px;
+  color: var(--Stone600);
+  margin-bottom: 10px;
+}
+.preparation-section{
+  margin-bottom: 15px;
+  background-color: var(--Rose50);
+  padding: 1rem 2rem;
+  border-radius: 7px;
+}
+.preparation-section h4{
+  color: var(--Rose800);
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.preparation-section li{
+  margin-bottom: 7px;
+  padding-left: 12px;
+}
+.preparation-section ul{
+  padding-left: 17px;
+}
+.preparation-sect h4{
+  color: var(--Brown800);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.ingridient li{
+  margin-bottom: 7px;
+  padding-left: 12px;
+  color: var(--Stone600);
+}
+.ingridient h4{
+font-size: 20px;
+color: var(--Brown800);
+margin-bottom: 15px;
+}
+.ingridient{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.ingridient ul{
+  padding-left: 17px;
+}
+.recipe-manual{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.recipe-manual h4{
+  color: var(--Brown800);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.recipe-manual li{
+  margin-bottom: 7px;
+  padding-left: 12px;
+  color: var(--Stone600);
+}
+.recipe-manual ol{
+  padding-left: 17px;
+}
+.sect{
+  font-size: 20px;
+  color: var(--Brown800);
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+.sct{
+  margin-bottom: 5px;
+  color: var(--Stone600);
+}
