@@ -105,13 +105,28 @@ margin-bottom: 15px;
 .recipe-manual ol{
   padding-left: 17px;
 }
-.sect{
+.nutrition h4{
   font-size: 20px;
   color: var(--Brown800);
   margin-bottom: 10px;
   margin-top: 25px;
 }
-.sct{
+.nutrition{
   margin-bottom: 5px;
   color: var(--Stone600);
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.nutrition td{
+  border-bottom: 1px solid var(--Stone150);
+  padding: 14px 0px;
+}
+.nutrition td:nth-child(2){
+  color: var(--Brown800);
+  font-weight: 600;
+}
+.nutrition tr:last-child td{
+  border-bottom: none;
 }
